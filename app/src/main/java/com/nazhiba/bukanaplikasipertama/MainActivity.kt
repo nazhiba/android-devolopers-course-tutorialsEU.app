@@ -3,6 +3,7 @@ package com.nazhiba.bukanaplikasipertama
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
@@ -17,6 +18,8 @@ class MainActivity : AppCompatActivity() {
             timesclicked+=1
 
             tvtextview.text = timesclicked.toString()
+            Toast.makeText(this, "Hey dunia!", Toast.LENGTH_SHORT).show()
         }
     }
 }
+
